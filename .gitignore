@@ -5,3 +5,4 @@
 .DS_Store
 download/
 node_modules/
+logs/*.json

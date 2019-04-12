@@ -7,5 +7,5 @@ args = commandArgs(trailingOnly=TRUE)
 #message(args[2])
 
 #download_dje('TJSP', '2019-04-11', path = 'download', verbose = TRUE)
-pathName = paste('download/', args[2])
+pathName = paste('download/', args[2], sep = "")
 download_dje(args[1], args[2], path = pathName, verbose = TRUE)

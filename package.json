@@ -11,7 +11,8 @@
   "scripts": {
     "start": "node reader/index.js",
     "install": "./install.sh",
-    "example": "Rscript --vanilla run.R TJSP 2019-04-11",
+    "download": "Rscript --vanilla run.R TJSP 2019-04-11",
+    "convert": "Rscript --vanilla convert.R tjsp 2019-04-11 11",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -25,6 +26,8 @@
   },
   "homepage": "https://github.com/mariohmol/dje#readme",
   "dependencies": {
+    "async": "^2.6.2",
+    "event-stream": "^4.0.1",
     "moment": "^2.24.0",
     "pdf2json": "^1.1.8"
   }

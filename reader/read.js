@@ -1,57 +1,77 @@
-const PDFParser = require('pdf2json');
 const fs = require('fs');
+const es = require('event-stream');
+const async = require('async');
+const path = require('path');
 
-const { ESTADOS } = require('./data.js');
+const readFile = function (file, terms, cb=null) {
+  lineNr = 0;
+  let currentProcess;
+  let found = [];
+  var s = fs.createReadStream(file)
+    .pipe(es.split())
+    .pipe(es.mapSync(function (line) {
 
-function readPdfLines(mainUpload) {
+      // pause the readstream
+      s.pause();
 
-  return new Promise((resolve, reject) => {
-    const pdfParser = new PDFParser();
-    pdfParser.on('pdfParser_dataError', errData => {
-      reject(errData);
-    });
-    pdfParser.on('pdfParser_dataReady', pdfData => {
-      const texts = pdfData.formImage.Pages[0].Texts;
-      const lines = {};
-
-      texts.forEach(text => {
-        const y = text.y;
-        const val = decodeURIComponent(text.R[0].T);
-        if (lines[y]) {
-          lines[y].push(val);
-        } else {
-          lines[y] = [val];
+      lineNr += 1;
+      terms.forEach(term => {
+        if (line.indexOf(term) >= 0) {
+          console.log(line)
+          found.push(line)
         }
       });
 
-      // texts.forEach(text => {
-      //   if (text.y < 28) {
-      //     console.log('TEXT>>>>>>>>>>', text, text.R[0].T);
-      //   }
-      //   const y = text.y;
-      //   const val = decodeURIComponent(text.R[0].T);
-      //   if (lines[y]) {
-      //     if (lastX[y] + 1.6 >  text.x ) {
-      //       const l = lines[y].length - 1;
-      //       lines[y][l] += ' ' + val;
-      //     } else if (lastX[y] + 0.240 > text.x ) {
-      //       const l = lines[y].length - 1;
-      //       lines[y][l] +=  val;
-      //     } else {
-      //       lines[y].push(val);
-      //     }
-      //     lastX[y] = text.x;
-      //   } else {
-      //     lastX[y] = text.x;
-      //     lines[y] = [val];
-      //   }
-      // });
 
-      resolve(lines);
+      // process line here and call s.resume() when rdy
+      // function below was for logging memory usage
+      // console.log(lineNr);
+
+      // resume the readstream, possibly from a callback
+      s.resume();
+    })
+      .on('error', function (err) {
+        if(cb){
+          cb()
+        }
+        console.log('Error while reading file.', err);
+      })
+      .on('end', function () {
+        if(cb){
+          cb()
+        }
+        console.log('Read entire file: ', file)
+      })
+    );
+
+}
+
+const readFolder = function (folder ,terms) {
+  
+  // Read all files in ./incrementals folder
+  fs.readdir(folder, (e, files) => {
+    async.filterSeries(files.sort(), (file, cb) => {
+      console.log('File: ', folder+'/'+file);
+      readFile(folder+'/' + file, terms, cb);
+    }, (err, validFiles) => {
+      console.log(validFiles);  // => Prints a list of all valid files
     });
-
-    pdfParser.loadPDF(mainUpload);
   });
 }
 
-module.exports = { readPdfLines };
+function readAllLines(folder) {
+  fs.readFile(path.join(folder, file), (err, data) => {
+    const lines = data.toString().split('\r\n');
+
+    let previous = extractTimestamp(lines[1]);
+
+    if (latest && latest !== previous) {
+      return cb();
+    }
+
+    latest = extractTimestamp(lines[0]);
+
+    cb(null, true);
+  });
+}
+module.exports = { readFile, readFolder, readAllLines };
