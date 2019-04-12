@@ -1,30 +1,4 @@
 {
-  "TJPA": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJPA 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJES": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJES 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
   "TJDFT": {
     "data": "2019-04-11",
     "status": false,
@@ -34,110 +8,6 @@
       "code": 1,
       "signal": null,
       "cmd": "Rscript --vanilla run.R TJDFT 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJPI": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJPI 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJRR": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJRR 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJRJ": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJRJ 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJMG": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJMG 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJRO": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJRO 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJAP": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJAP 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJSE": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJSE 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
-  "TJTO": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJTO 2019-04-11"
     },
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
@@ -155,7 +25,7 @@
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJMA": {
+  "TJPR": {
     "data": "2019-04-11",
     "status": false,
     "obs": "error",
@@ -163,7 +33,20 @@
       "killed": false,
       "code": 1,
       "signal": null,
-      "cmd": "Rscript --vanilla run.R TJMA 2019-04-11"
+      "cmd": "Rscript --vanilla run.R TJPR 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJMG": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJMG 2019-04-11"
     },
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
@@ -181,7 +64,7 @@
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJRS": {
+  "TJMA": {
     "data": "2019-04-11",
     "status": false,
     "obs": "error",
@@ -189,7 +72,33 @@
       "killed": false,
       "code": 1,
       "signal": null,
-      "cmd": "Rscript --vanilla run.R TJRS 2019-04-11"
+      "cmd": "Rscript --vanilla run.R TJMA 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJES": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJES 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJRO": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJRO 2019-04-11"
     },
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
@@ -207,19 +116,6 @@
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJPR": {
-    "data": "2019-04-11",
-    "status": false,
-    "obs": "error",
-    "err": {
-      "killed": false,
-      "code": 1,
-      "signal": null,
-      "cmd": "Rscript --vanilla run.R TJPR 2019-04-11"
-    },
-    "stdout": "",
-    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
-  },
   "TJGO": {
     "data": "2019-04-11",
     "status": false,
@@ -233,53 +129,117 @@
     "stdout": "",
     "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJAM": {
+  "TJTO": {
     "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 3 x 5\n  date    booklet link                              file                  result\n  <fct>     <int> <chr>                             <chr>                 <chr> \n1 2019-0…       1 http://esaj.tjam.jus.br/cdje/dow… download/tjam_dje_20… EXISTS\n2 2019-0…       2 http://esaj.tjam.jus.br/cdje/dow… download/tjam_dje_20… EXISTS\n3 2019-0…       3 http://esaj.tjam.jus.br/cdje/dow… download/tjam_dje_20… EXISTS\n",
-    "stderr": ""
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJTO 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJCE": {
+  "TJRS": {
     "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 2 x 5\n  date    booklet link                              file                  result\n  <fct>     <int> <chr>                             <chr>                 <chr> \n1 2019-0…       1 http://esaj.tjce.jus.br/cdje/dow… download/tjce_dje_20… EXISTS\n2 2019-0…       2 http://esaj.tjce.jus.br/cdje/dow… download/tjce_dje_20… EXISTS\n",
-    "stderr": ""
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJRS 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJRR": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJRR 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJAP": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJAP 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJPA": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJPA 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJRJ": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJRJ 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJPI": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJPI 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
+  },
+  "TJSE": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJSE 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Error in purrr::map2_chr(date, booklet, ~get_dje_link(tj, .x, u_dje, .y)) : \n  objeto 'booklet' não encontrado\nCalls: download_dje ... <Anonymous> -> mutate.tbl_df -> mutate_impl -> <Anonymous>\nExecução interrompida\n"
   },
   "TJMS": {
     "data": "2019-04-11",
     "status": true,
-    "obs": "existe",
+    "obs": "",
     "err": null,
-    "stdout": "# A tibble: 4 x 5\n  date    booklet link                              file                  result\n  <fct>     <int> <chr>                             <chr>                 <chr> \n1 2019-0…       1 http://www.tjms.jus.br/cdje/down… download/tjms_dje_20… EXISTS\n2 2019-0…       2 http://www.tjms.jus.br/cdje/down… download/tjms_dje_20… EXISTS\n3 2019-0…       3 http://www.tjms.jus.br/cdje/down… download/tjms_dje_20… EXISTS\n4 2019-0…       4 http://www.tjms.jus.br/cdje/down… download/tjms_dje_20… EXISTS\n",
-    "stderr": ""
-  },
-  "TJAL": {
-    "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 2 x 5\n  date    booklet link                              file                  result\n  <fct>     <dbl> <chr>                             <chr>                 <chr> \n1 2019-0…       2 http://www2.tjal.jus.br/cdje/dow… download/tjal_dje_20… EXISTS\n2 2019-0…       3 http://www2.tjal.jus.br/cdje/dow… download/tjal_dje_20… EXISTS\n",
-    "stderr": ""
-  },
-  "TJSP": {
-    "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 6 x 5\n  date    booklet link                             file                   result\n  <fct>     <dbl> <chr>                            <chr>                  <chr> \n1 2019-0…      11 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n2 2019-0…      12 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n3 2019-0…      13 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n4 2019-0…      14 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n5 2019-0…      15 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n6 2019-0…      18 http://www.dje.tjsp.jus.br/cdje… download/tjsp_dje_201… EXISTS\n",
-    "stderr": ""
-  },
-  "TJSC": {
-    "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 4 x 5\n  date    booklet link                              file                  result\n  <fct>     <int> <chr>                             <chr>                 <chr> \n1 2019-0…       1 http://busca.tjsc.jus.br/dje-con… download/tjsc_dje_20… EXISTS\n2 2019-0…       2 http://busca.tjsc.jus.br/dje-con… download/tjsc_dje_20… EXISTS\n3 2019-0…       3 http://busca.tjsc.jus.br/dje-con… download/tjsc_dje_20… EXISTS\n4 2019-0…       4 http://busca.tjsc.jus.br/dje-con… download/tjsc_dje_20… EXISTS\n",
-    "stderr": "Warning messages:\n1: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n2: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n3: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n4: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n"
+    "stdout": "# A tibble: 4 x 5\n  date    booklet link                           file                     result\n  <fct>     <int> <chr>                          <chr>                    <chr> \n1 2019-0…       1 http://www.tjms.jus.br/cdje/d… download/ 2019-04-11/tj… EMPTY \n2 2019-0…       2 http://www.tjms.jus.br/cdje/d… download/ 2019-04-11/tj… EMPTY \n3 2019-0…       3 http://www.tjms.jus.br/cdje/d… download/ 2019-04-11/tj… EMPTY \n4 2019-0…       4 http://www.tjms.jus.br/cdje/d… download/ 2019-04-11/tj… EMPTY \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_1_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_2_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_1_2019-04-11.pdf'... EMPTY!\nDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_3_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_2_2019-04-11.pdf'... EMPTY!\nDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_4_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_3_2019-04-11.pdf'... EMPTY!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjms_dje_2019-04-11/tjms_4_2019-04-11.pdf'... EMPTY!\n"
   },
   "TJRN": {
     "data": "2019-04-11",
@@ -294,20 +254,65 @@
     "stdout": "",
     "stderr": "Error in curl::curl_fetch_memory(url, handle = handle) : \n  SSL: no alternative certificate subject name matches target host name 'www.diario.tjrn.jus.br'\nCalls: download_dje ... request_fetch -> request_fetch.write_memory -> <Anonymous>\nExecução interrompida\n"
   },
-  "TJAC": {
-    "data": "2019-04-11",
-    "status": true,
-    "obs": "existe",
-    "err": null,
-    "stdout": "# A tibble: 1 x 5\n  date    booklet link                              file                  result\n  <fct>     <dbl> <chr>                             <chr>                 <chr> \n1 2019-0…       1 http://diario.tjac.jus.br/edicoe… download/tjac_dje_20… EXISTS\n",
-    "stderr": ""
-  },
   "TJBA": {
     "data": "2019-04-11",
     "status": true,
-    "obs": "existe",
+    "obs": "",
     "err": null,
-    "stdout": "# A tibble: 1 x 5\n  date       booklet link  file                                           result\n  <fct>        <dbl> <chr> <chr>                                          <chr> \n1 2019-04-11       1 <NA>  download/tjba_dje_2019-04-11/tjba_1_2019-04-1… EXISTS\n",
-    "stderr": "Warning message:\nExpected 2 pieces. Missing pieces filled with `NA` in 9 rows [1, 2, 3, 4, 5, 6, 7, 8, 9]. \n"
+    "stdout": "# A tibble: 1 x 5\n  date      booklet link  file                                            result\n  <fct>       <dbl> <chr> <chr>                                           <chr> \n1 2019-04-…       1 <NA>  download/ 2019-04-11/tjba_dje_2019-04-11/tjba_… ERROR \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjba_dje_2019-04-11/tjba_1_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjba_dje_2019-04-11/tjba_1_2019-04-11.pdf'... ERROR!\nWarning messages:\n1: Expected 2 pieces. Missing pieces filled with `NA` in 9 rows [1, 2, 3, 4, 5, 6, 7, 8, 9]. \n2: In stri_detect_regex(string, pattern, negate = negate, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n"
+  },
+  "TJCE": {
+    "data": "2019-04-11",
+    "status": true,
+    "obs": "",
+    "err": null,
+    "stdout": "# A tibble: 2 x 5\n  date    booklet link                           file                     result\n  <fct>     <int> <chr>                          <chr>                    <chr> \n1 2019-0…       1 http://esaj.tjce.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n2 2019-0…       2 http://esaj.tjce.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjce_dje_2019-04-11/tjce_1_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjce_dje_2019-04-11/tjce_2_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjce_dje_2019-04-11/tjce_1_2019-04-11.pdf'... OK!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjce_dje_2019-04-11/tjce_2_2019-04-11.pdf'... OK!\n"
+  },
+  "TJSC": {
+    "data": "2019-04-11",
+    "status": false,
+    "obs": "error",
+    "err": {
+      "killed": false,
+      "code": 1,
+      "signal": null,
+      "cmd": "Rscript --vanilla run.R TJSC 2019-04-11"
+    },
+    "stdout": "",
+    "stderr": "Downloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_1_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_2_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_1_2019-04-11.pdf'... ERROR!\nDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_3_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_2_2019-04-11.pdf'... !\nDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_4_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_4_2019-04-11.pdf'... OK!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsc_dje_2019-04-11/tjsc_3_2019-04-11.pdf'... OK!\nErro: Argument 2 must be length 4, not 3\nAlém disso: Warning messages:\n1: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n2: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n3: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\n4: In stri_extract_first_regex(string, pattern, opts_regex = opts(pattern)) :\n  argument is not an atomic vector; coercing\nExecução interrompida\n"
+  },
+  "TJAC": {
+    "data": "2019-04-11",
+    "status": true,
+    "obs": "",
+    "err": null,
+    "stdout": "# A tibble: 1 x 5\n  date    booklet link                           file                     result\n  <fct>     <dbl> <chr>                          <chr>                    <chr> \n1 2019-0…       1 http://diario.tjac.jus.br/edi… download/ 2019-04-11/tj… OK    \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjac_dje_2019-04-11/tjac_1_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjac_dje_2019-04-11/tjac_1_2019-04-11.pdf'... OK!\n"
+  },
+  "TJAM": {
+    "data": "2019-04-11",
+    "status": true,
+    "obs": "",
+    "err": null,
+    "stdout": "# A tibble: 3 x 5\n  date    booklet link                           file                     result\n  <fct>     <int> <chr>                          <chr>                    <chr> \n1 2019-0…       1 http://esaj.tjam.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n2 2019-0…       2 http://esaj.tjam.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n3 2019-0…       3 http://esaj.tjam.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_1_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_2_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_1_2019-04-11.pdf'... OK!\nDownloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_3_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_3_2019-04-11.pdf'... OK!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjam_dje_2019-04-11/tjam_2_2019-04-11.pdf'... OK!\n"
+  },
+  "TJSP": {
+    "data": "2019-04-11",
+    "status": true,
+    "obs": "",
+    "err": null,
+    "stdout": "# A tibble: 6 x 5\n  date    booklet link                           file                     result\n  <fct>     <dbl> <chr>                          <chr>                    <chr> \n1 2019-0…      11 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n2 2019-0…      12 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n3 2019-0…      13 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n4 2019-0…      14 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n5 2019-0…      15 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n6 2019-0…      18 http://www.dje.tjsp.jus.br/cd… download/ 2019-04-11/tj… OK    \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_11_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_12_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_11_2019-04-11.pdf'... OK!\nDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_13_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_12_2019-04-11.pdf'... OK!\nDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_14_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_14_2019-04-11.pdf'... OK!\nDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_18_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_13_2019-04-11.pdf'... OK!\nDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_15_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_18_2019-04-11.pdf'... OK!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjsp_dje_2019-04-11/tjsp_15_2019-04-11.pdf'... OK!\n"
+  },
+  "TJAL": {
+    "data": "2019-04-11",
+    "status": true,
+    "obs": "",
+    "err": null,
+    "stdout": "# A tibble: 2 x 5\n  date    booklet link                           file                     result\n  <fct>     <dbl> <chr>                          <chr>                    <chr> \n1 2019-0…       2 http://www2.tjal.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n2 2019-0…       3 http://www2.tjal.jus.br/cdje/… download/ 2019-04-11/tj… OK    \n",
+    "stderr": "Downloading 'download/ 2019-04-11/tjal_dje_2019-04-11/tjal_2_2019-04-11.pdf'... \nDownloading 'download/ 2019-04-11/tjal_dje_2019-04-11/tjal_3_2019-04-11.pdf'... \n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjal_dje_2019-04-11/tjal_2_2019-04-11.pdf'... OK!\n\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\bDownloading 'download/ 2019-04-11/tjal_dje_2019-04-11/tjal_3_2019-04-11.pdf'... OK!\n"
   }
 }
