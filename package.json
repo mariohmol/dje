@@ -29,6 +29,7 @@
     "async": "^2.6.2",
     "event-stream": "^4.0.1",
     "moment": "^2.24.0",
-    "pdf2json": "^1.1.8"
+    "pdf2json": "^1.1.8",
+    "request": "^2.88.0"
   }
 }

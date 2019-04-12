@@ -8,7 +8,7 @@ Download e leitura de Diários do Judiciário de diversos estados brasileiros.
 
 Estados integrados:
 
-*  TJAC, TJAL, TJAM, TJBA, TJCE, TJMS, TJRN, TJSC, TJSP
+*  TJAC, TJAL, TJAM, TJBA, TJCE, TJMS, TJRN, TJSC, TJSP, TJDFT
 
 | tribunal | link                                                                            | captcha                  |
 | :------- | :------------------------------------------------------------------------------ | :----------------------- |

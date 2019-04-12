@@ -1,5 +1,4 @@
 
-
 const ESTADOS = {
   'TJAC': true,
   'TJAL': true,
@@ -7,7 +6,7 @@ const ESTADOS = {
   'TJAP': false,
   'TJBA': true,
   'TJCE': true,
-  'TJDFT': false,
+  'TJDFT': true,
   'TJES': false,
   'TJGO': false,
   'TJMA': false,
