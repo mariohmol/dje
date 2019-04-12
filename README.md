@@ -65,3 +65,13 @@ knitr::kable(tibble::tribble(
 | TJSE     | <http://www.diario.tjse.jus.br/diario/internet/pesquisar.wsp>                   | n                        |
 | TJSP     | <https://dje.tjsp.jus.br/cdje/index.do>                                         | n                        |
 | TJTO     | <https://wwa.tjto.jus.br/diario/pesquisa/arquivos>                              | n                        |
+
+
+## Guia de Desenvolvimento
+
+Instalação:
+
+`npm run install`
+
+
+
