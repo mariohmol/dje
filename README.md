@@ -74,4 +74,16 @@ Instalação:
 `npm run install`
 
 
+`download_dje(tj, dates = Sys.Date(), path = ".", verbose = FALSE)`
+
+`download_dje('TJSP', '2019-04-11', path = "./download", verbose = TRUE)`
+
+
+
+
+echo "library(dje) download_dje('TJSP', '2019-04-11', path = './download', verbose = TRUE)" | R --no-save
+
+
+echo "download_dje('TJSP', '2019-04-11', path = './download', verbose = TRUE)" | echo "library(dje)" | R --no-save
+
 

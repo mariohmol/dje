@@ -9,7 +9,9 @@
     "test": "tests"
   },
   "scripts": {
+    "start": "node reader/index.js",
     "install": "./install.sh",
+    "example": "Rscript --vanilla run.R TJSP 2019-04-11",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/mariohmol/dje/issues"
   },
-  "homepage": "https://github.com/mariohmol/dje#readme"
+  "homepage": "https://github.com/mariohmol/dje#readme",
+  "dependencies": {
+    "pdf2json": "^1.1.8"
+  }
 }

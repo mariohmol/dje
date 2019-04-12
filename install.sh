@@ -13,3 +13,4 @@
 ./rpkginstall.sh xml2
 ./rpkginstall.sh abjutils
 ./rpkginstall.sh dje
+./rpkginstall.sh tidyverse
