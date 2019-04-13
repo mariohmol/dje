@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-const { qRequest, dowloadFile, createProjects } = require('../utils.js');
+const { qRequest, dowloadFile, createFolders } = require('../utils.js');
 
 function downloadDF(date) {
   dates = date.split('-');
@@ -18,7 +18,7 @@ function downloadDF(date) {
           const url = `https://pesquisadje-api.tjdft.jus.br/v1/diarios/pdf/2019/${d.numero}.pdf#page=0`
           
           const folder = `download/${date}/tjdft_dje_${date}`
-          createProjects(folder);
+          createFolders(folder);
           
           dowloadFile(url, folder+`/tjdft_1_${date}.pdf`);
         }

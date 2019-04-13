@@ -41,7 +41,7 @@ const qRequest = function (options, json = false) {
   return q;
 };
 
-function createProjects(folder) {
+function createFolders(folder) {
   const folders = folder.split('/');
   let initial;
   folders.forEach(f => {
@@ -55,4 +55,4 @@ function createProjects(folder) {
     }
   })
 }
-module.exports = { qRequest, dowloadFile, createProjects }
+module.exports = { qRequest, dowloadFile, createFolders }
