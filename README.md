@@ -26,12 +26,12 @@ Estados não integrados:
 | TJES     | <https://sistemas.tjes.jus.br/ediario/index.php/pesquisa>                       | não implementado                        |
 | TJGO     | <http://tjdocs.tjgo.jus.br/pastas/333>                                          | não implementado                        |
 | TJMA     | <http://www.tjma.jus.br/inicio/diario>                                          | sim (n captcha)                        |
-| TJMG     | <https://dje.tjmg.jus.br/diarioJudiciarioData.do>                               | não (s, resolvido no decryptr) |
+| TJMG     | <https://dje.tjmg.jus.br/diarioJudiciarioData.do>                               | sim (link direto) |
 | TJMS     | <https://esaj.tjms.jus.br/cdje/index.do>                                        | sim (n captcha)                        |
-| TJMT     | <https://www.tjmt.jus.br/Dje>                                                   | não implementado                        |
+| TJMT     | <https://www.tjmt.jus.br/Dje>                                                   | não implementado (link direto)                       |
 | TJPA     | <https://dje.tjpa.jus.br/ClientDJEletronico/app/home.html>                      | não implementad (sim captcha , mas tem link direto )  |
-| TJPB     | <https://app.tjpb.jus.br/dje/paginas/diario_justica/publico/buscas.jsf>         | não implementado                        |
-| TJPE     | <https://www.tjpe.jus.br/dje/djeletronico>                                      | não implementado                        |
+| TJPB     | <https://app.tjpb.jus.br/dje/paginas/diario_justica/publico/buscas.jsf>         | não implementado (link direto)                       |
+| TJPE     | <https://www.tjpe.jus.br/dje/djeletronico?visaoId=tjdf.djeletronico.comum.internet.apresentacao.VisaoDiarioEletronicoInternetPorData>                                      | não implementado (link direto)                       |
 | TJPI     | <https://www.tjpi.jus.br/site/modules/diario/BuscaAvancada.find.mtw>            | não implementado                        |
 | TJPR     | <https://www.tjpr.jus.br/arquivos-diario-da-justica>                            | não implementado                        |
 | TJRJ     | <https://www3.tjrj.jus.br/consultadje/consultaDJE.aspx>                         | não (s captcha, mas tem link direto)   |
@@ -40,9 +40,9 @@ Estados não integrados:
 | TJRR     | <http://diario.tjrr.jus.br/calendario.php>                                      | não implementado                        |
 | TJRS     | <http://www.tjrs.jus.br/busca/?tb=dj>                                           | não implementado                        |
 | TJSC     | <http://busca.tjsc.jus.br/dje-consulta/#/main>                                  | sim (n captcha)                        |
-| TJSE     | <http://www.diario.tjse.jus.br/diario/internet/pesquisar.wsp>                   | não implementado                        |
-| TJSP     | <https://dje.tjsp.jus.br/cdje/index.do>                                         | não implementado                        |
-| TJTO     | <https://wwa.tjto.jus.br/diario/pesquisa/arquivos>                              | não implementado                        |
+| TJSE     | <http://www.diario.tjse.jus.br/diario/internet/pesquisar.wsp>                   | não implementado  (link direto)                        |
+| TJSP     | <https://dje.tjsp.jus.br/cdje/index.do>                                         | sim                        |
+| TJTO     | <https://wwa.tjto.jus.br/diario/pesquisa/arquivos>                              | não implementado (link direto)                       |
 
 
 
