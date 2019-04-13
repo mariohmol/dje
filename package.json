@@ -29,6 +29,7 @@
     "async": "^2.6.2",
     "cheerio": "^1.0.0-rc.3",
     "event-stream": "^4.0.1",
+    "extract-zip": "^1.6.7",
     "moment": "^2.24.0",
     "pdf2json": "^1.1.8",
     "querystring": "^0.2.0",

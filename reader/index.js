@@ -10,15 +10,18 @@ function getDay(day){
   convertToText(day);
 }
 const terms = [
-    '1111111-62.2016.8.26.0100'
+    '1111111-62.2016.8.26.0100',
+    '0352286-78.2019.8.13.0000',
+    '6024116-34.2015.8.13.0024'
   ]
 const day = '2019-04-08';
-const folder = `download/${day}/tjsp_dje_${day}_txt/`
-readerDownload(day, 'TJMA');
+const state = 'mg';
+const folder = `download/${day}/tj${state}_dje_${day}_txt/`
+// readerDownload(day, 'TJMG');
 
 // getDay(day);
 // convertToText(day);
-// readFolder(folder,terms);
+readFolder(folder,terms);
 // readFile('download/2019-04-08/tjsp_dje_2019-04-08_txt/tjsp_11_2019-04-08.txt',terms);
 
 /**

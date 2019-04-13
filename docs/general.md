@@ -1,352 +1,86 @@
 # TODO
 
-## MA
-
-'TJMA','http://www.tjma.jus.br/inicio/diario','n',
-
-POST http://www.tjma.jus.br/inicio/diario:
-dtaInicio: 12/04/2019
-dtaTermino: 12/04/2019
-btnConsultar: Consultar
-
-
-```html
-<div id="list-diario">
-    <table border="0" id="table1"  summary="">
-        <tr>
-            <th>Disponibiliza&ccedil;&atilde;o</th>
-            <th>Publica&ccedil;&atilde;o</th>
-            <th>Download (Vers&atilde;o)</th>
-        </tr>
-        <tr class="shadow">
-            <td>11/04/2019 14:54</td>
-            <td>12/04/2019   / suplemento</td>
-            <td>
-                <a href="https://www3.tjma.jus.br/diario/diarios/2019/diario_11042019_145354_66.pdf"  target="_blank"> PDF</a> |
-                <a href="https://www3.tjma.jus.br/diario/VisualizacaoDiarioA3.mtw?idDiario=2968"  target="_blank"> Assinada</a>
-            </td>
-        </tr>
-        <tr >
-            <td>11/04/2019 11:43</td>
-            <td>12/04/2019  </td>
-            <td>
-                <a href="https://www3.tjma.jus.br/diario/diarios/2019/diario_11042019_114048_66.pdf"  target="_blank"> PDF</a> |
-                <a href="https://www3.tjma.jus.br/diario/VisualizacaoDiarioA3.mtw?idDiario=2967"  target="_blank"> Assinada</a>
-            </td>
-        </tr>
-    </table>
-</div>
-```
-
 ## RJ
 
-'TJRJ','https://www3.tjrj.jus.br/consultadje/consultaDJE.aspx','s, mas tem link direto',
+'TJRJ','https://www3.tjrj.jus.br/consultadje/consultaDJE.aspx','s
 
+TODO:
 https://www3.tjrj.jus.br/consultadje/pdf.aspx?dtPub=12/04/2019&caderno=C&pagina=1
 
-## MG
 
-'TJMG','https://dje.tjmg.jus.br/diarioJudiciarioData.do','s, resolvido no decryptr',
+## TJAP
 
-```json
-  "tjmg|edital": "TJMG:Editais"
-  "2inst|adm": "2ª INSTÂNCIA: Administrativo"
-  "2inst|si" : "2ª Inst. Judicial"
-  "comarca|0024": "CAPITAL: Belo Horizonte"
-  "comarca|0002": "Abaeté"
-  "comarca|0003": "Abre-Campo"
-  "comarca|0005": "Açucena"
-  "comarca|0009": "Águas Formosas"
-  "comarca|0011": "Aimorés"
-  "comarca|0012": "Aiuruoca"
-  "comarca|0015": "Além Paraíba"
-  "comarca|0016": "Alfenas"
-  "comarca|0017": "Almenara"
-  "comarca|0019": "Alpinópolis"
-  "comarca|0021": "Alto Rio Doce"
-  "comarca|0023": "Alvinópolis"
-  "comarca|0026": "Andradas"
-  "comarca|0028": "Andrelândia"
-  "comarca|0034": "Araçuaí"
-  "comarca|0035": "Araguari"
-  "comarca|0040": "Araxá"
-  "comarca|0042": "Arcos"
-  "comarca|0043": "Areado"
-  "comarca|0778": "Arinos"
-  "comarca|0049": "Baependi"
-  "comarca|0051": "Bambuí"
-  "comarca|0054": "Barão de Cocais"
-  "comarca|0056": "Barbacena"
-  "comarca|0059": "Barroso"
-  "comarca|0064": "Belo Vale"
-  "comarca|0027": "Betim"
-  "comarca|0069": "Bicas"
-  "comarca|0071": "Boa Esperança"
-  "comarca|0073": "Bocaiúva"
-  "comarca|0074": "Bom Despacho"
-  "comarca|0080": "Bom Sucesso"
-  "comarca|0081": "Bonfim"
-  "comarca|0082": "Bonfinópolis de Minas"
-  "comarca|0083": "Borda da Mata"
-  "comarca|0084": "Botelhos"
-  "comarca|0086": "Brasília de Minas"
-  "comarca|0089": "Brasópolis"
-  "comarca|0090": "Brumadinho"
-  "comarca|0091": "Bueno Brandão"
-  "comarca|0092": "Buenópolis"
-  "comarca|0093": "Buritis"
-  "comarca|0095": "Cabo Verde"
-  "comarca|0097": "Cachoeira de Minas"
-  "comarca|0045": "Caeté"
-  "comarca|0103": "Caldas"
-  "comarca|0878": "Camanducaia"
-  "comarca|0106": "Cambuí"
-  "comarca|0107": "Cambuquira"
-  "comarca|0109": "Campanha"
-  "comarca|0110": "Campestre"
-  "comarca|0111": "Campina Verde"
-  "comarca|0112": "Campo Belo"
-  "comarca|0115": "Campos Altos"
-  "comarca|0116": "Campos Gerais"
-  "comarca|0118": "Canápolis"
-  "comarca|0120": "Candeias"
-  "comarca|0123": "Capelinha"
-  "comarca|0126": "Capinópolis"
-  "comarca|0132": "Carandaí"
-  "comarca|0133": "Carangola"
-  "comarca|0134": "Caratinga"
-  "comarca|0137": "Carlos Chagas"
-  "comarca|0140": "Carmo da Mata"
-  "comarca|0141": "Carmo de Minas"
-  "comarca|0142": "Carmo do Cajuru"
-  "comarca|0143": "Carmo do Paranaíba"
-  "comarca|0144": "Carmo do Rio Claro"
-  "comarca|0879": "Carmópolis de Minas"
-  "comarca|0151": "Cássia"
-  "comarca|0153": "Cataguases"
-  "comarca|0155": "Caxambu"
-  "comarca|0166": "Cláudio"
-  "comarca|0175": "Conceição Mato Dentro"
-  "comarca|0172": "Conceição das Alagoas"
-  "comarca|0177": "Conceição do Rio Verde"
-  "comarca|0180": "Congonhas"
-  "comarca|0183": "Conselheiro Lafaiete"
-  "comarca|0184": "Conselheiro Pena"
-  "comarca|0182": "Conquista"
-  "comarca|0079": "Contagem"
-  "comarca|0775": "Coração de Jesus"
-  "comarca|0191": "Corinto"
-  "comarca|0193": "Coromandel"
-  "comarca|0194": "Coronel Fabriciano"
-  "comarca|0205": "Cristina"
-  "comarca|0208": "Cruzília"
-  "comarca|0209": "Curvelo"
-  "comarca|0216": "Diamantina"
-  "comarca|0220": "Divino"
-  "comarca|0223": "Divinópolis"
-  "comarca|0232": "Dores do Indaiá"
-  "comarca|0236": "Elói Mendes"
-  "comarca|0239": "Entre Rios de Minas"
-  "comarca|0240": "Ervália"
-  "comarca|0241": "Esmeraldas"
-  "comarca|0242": "Espera Feliz"
-  "comarca|0243": "Espinosa"
-  "comarca|0248": "Estrela do Sul"
-  "comarca|0249": "Eugenópolis"
-  "comarca|0251": "Extrema"
-  "comarca|0259": "Ferros"
-  "comarca|0261": "Formiga"
-  "comarca|0267": "Francisco Sá"
-  "comarca|0271": "Frutal"
-  "comarca|0273": "Galiléia"
-  "comarca|0105": "Governador Valadares"
-  "comarca|0278": "Grão-Mogol"
-  "comarca|0280": "Guanhães"
-  "comarca|0281": "Guapé"
-  "comarca|0283": "Guaranésia"
-  "comarca|0284": "Guarani"
-  "comarca|0287": "Guaxupé"
-  "comarca|0295": "Ibiá"
-  "comarca|0297": "Ibiraci"
-  "comarca|0114": "Ibirité"
-  "comarca|0301": "Igarapé"
-  "comarca|0303": "Iguatama"
-  "comarca|0309": "Inhapim"
-  "comarca|0312": "Ipanema"
-  "comarca|0313": "Ipatinga"
-  "comarca|0317": "Itabira"
-  "comarca|0319": "Itabirito"
-  "comarca|0322": "Itaguara"
-  "comarca|0324": "Itajubá"
-  "comarca|0325": "Itamarandiba"
-  "comarca|0327": "Itambacuri"
-  "comarca|0329": "Itamoji"
-  "comarca|0330": "Itamonte"
-  "comarca|0331": "Itanhandu"
-  "comarca|0332": "Itanhomi"
-  "comarca|0334": "Itapajipe"
-  "comarca|0335": "Itapecerica"
-  "comarca|0338": "Itaúna"
-  "comarca|0342": "Ituiutaba"
-  "comarca|0343": "Itumirim"
-  "comarca|0344": "Iturama"
-  "comarca|0346": "Jaboticatubas"
-  "comarca|0347": "Jacinto"
-  "comarca|0348": "Jacuí"
-  "comarca|0349": "Jacutinga"
-  "comarca|0351": "Janaúba"
-  "comarca|0352": "Januária"
-  "comarca|0355": "Jequeri"
-  "comarca|0358": "Jequitinhonha"
-  "comarca|0362": "João Monlevade"
-  "comarca|0363": "João Pinheiro"
-  "comarca|0145": "Juiz de Fora"
-  "comarca|0372": "Lagoa da Prata"
-  "comarca|0148": "Lagoa Santa"
-  "comarca|0377": "Lajinha"
-  "comarca|0378": "Lambari"
-  "comarca|0382": "Lavras"
-  "comarca|0384": "Leopoldina"
-  "comarca|0386": "Lima Duarte"
-  "comarca|0388": "Luz"
-  "comarca|0390": "Machado"
-  "comarca|0392": "Malacacheta"
-  "comarca|0393": "Manga"
-  "comarca|0394": "Manhuaçu"
-  "comarca|0395": "Manhumirim"
-  "comarca|0396": "Mantena"
-  "comarca|0398": "Mar de Espanha"
-  "comarca|0400": "Mariana"
-  "comarca|0405": "Martinho Campos"
-  "comarca|0407": "Mateus Leme"
-  "comarca|0408": "Matias Barbosa"
-  "comarca|0411": "Matozinhos"
-  "comarca|0414": "Medina"
-  "comarca|0416": "Mercês"
-  "comarca|0417": "Mesquita"
-  "comarca|0418": "Minas Novas"
-  "comarca|0421": "Miradouro"
-  "comarca|0422": "Miraí"
-  "comarca|0427": "Montalvânia"
-  "comarca|0428": "Monte Alegre de Minas"
-  "comarca|0429": "Monte Azul"
-  "comarca|0430": "Monte Belo"
-  "comarca|0431": "Monte Carmelo"
-  "comarca|0432": "Monte Santo de Minas"
-  "comarca|0434": "Monte Sião"
-  "comarca|0435": "Morada Nova de Minas"
-  "comarca|0433": "Montes Claros"
-  "comarca|0439": "Muriaé"
-  "comarca|0440": "Mutum"
-  "comarca|0441": "Muzambinho"
-  "comarca|0443": "Nanuque"
-  "comarca|0444": "Natércia"
-  "comarca|0446": "Nepomuceno"
-  "comarca|0447": "Nova Era"
-  "comarca|0188": "Nova Lima"
-  "comarca|0450": "Nova Ponte"
-  "comarca|0451": "Nova Resende"
-  "comarca|0452": "Nova Serrana"
-  "comarca|0453": "Novo Cruzeiro"
-  "comarca|0456": "Oliveira"
-  "comarca|0459": "Ouro Branco"
-  "comarca|0460": "Ouro Fino"
-  "comarca|0461": "Ouro Preto"
-  "comarca|0467": "Palma"
-  "comarca|0471": "Pará de Minas"
-  "comarca|0470": "Paracatu"
-  "comarca|0472": "Paraguaçu"
-  "comarca|0473": "Paraisópolis"
-  "comarca|0474": "Paraopeba"
-  "comarca|0476": "Passa-Quatro"
-  "comarca|0477": "Passa-Tempo"
-  "comarca|0479": "Passos"
-  "comarca|0480": "Patos de Minas"
-  "comarca|0481": "Patrocínio"
-  "comarca|0486": "Peçanha"
-  "comarca|0487": "Pedra Azul"
-  "comarca|0491": "Pedralva"
-  "comarca|0210": "Pedro Leopoldo"
-  "comarca|0498": "Perdizes"
-  "comarca|0499": "Perdões"
-  "comarca|0508": "Piranga"
-  "comarca|0511": "Pirapetinga"
-  "comarca|0512": "Pirapora"
-  "comarca|0514": "Pitangui"
-  "comarca|0515": "Piumhi"
-  "comarca|0517": "Poço Fundo"
-  "comarca|0518": "Poços de Caldas"
-  "comarca|0520": "Pompéu"
-  "comarca|0521": "Ponte Nova"
-  "comarca|0522": "Porteirinha"
-  "comarca|0525": "Pouso Alegre"
-  "comarca|0527": "Prados"
-  "comarca|0528": "Prata"
-  "comarca|0529": "Pratápolis"
-  "comarca|0534": "Presidente Olegário"
-  "comarca|0540": "Raul Soares"
-  "comarca|0542": "Resende Costa"
-  "comarca|0543": "Resplendor"
-  "comarca|0231": "Ribeirão das Neves"
-  "comarca|0549": "Rio Casca"
-  "comarca|0554": "Rio Novo"
-  "comarca|0555": "Rio Paranaíba"
-  "comarca|0556": "Rio Pardo de Minas"
-  "comarca|0557": "Rio Piracicaba"
-  "comarca|0558": "Rio Pomba"
-  "comarca|0559": "Rio Preto"
-  "comarca|0560": "Rio Vermelho"
-  "comarca|0567": "Sabará"
-  "comarca|0568": "Sabinópolis"
-  "comarca|0569": "Sacramento"
-  "comarca|0570": "Salinas"
-  "comarca|0572": "Santa Bárbara"
-  "comarca|0245": "Santa Luzia"
-  "comarca|0582": "Santa Maria do Suaçuí"
-  "comarca|0592": "Santa Rita de Caldas"
-  "comarca|0596": "Santa Rita Sapucaí"
-  "comarca|0598": "Santa Vitória"
-  "comarca|0604": "Santo Antônio do Monte"
-  "comarca|0607": "Santos Dumont"
-  "comarca|0610": "São Domingos do Prata"
-  "comarca|0611": "São Francisco"
-  "comarca|0620": "São Gonçalo Sapucaí"
-  "comarca|0621": "São Gotardo"
-  "comarca|0624": "São João da Ponte"
-  "comarca|0625": "São João Del Rey"
-  "comarca|0627": "São João do Paraíso"
-  "comarca|0628": "São João Evangelista"
-  "comarca|0629": "São João Nepomuceno"
-  "comarca|0637": "São Lourenço"
-  "comarca|0642": "São Romão"
-  "comarca|0643": "São Roque de Minas"
-  "comarca|0647": "São Sebastião Paraíso"
-  "comarca|0657": "Senador Firmino"
-  "comarca|0671": "Serro"
-  "comarca|0672": "Sete Lagoas"
-  "comarca|0674": "Silvianópolis"
-  "comarca|0680": "Taiobeiras"
-  "comarca|0684": "Tarumirim"
-  "comarca|0685": "Teixeiras"
-  "comarca|0686": "Teófilo Otôni"
-  "comarca|0687": "Timóteo"
-  "comarca|0689": "Tiros"
-  "comarca|0692": "Tombos"
-  "comarca|0693": "Três Corações"
-  "comarca|0058": "Três Marias"
-  "comarca|0694": "Três Pontas"
-  "comarca|0696": "Tupaciguara"
-  "comarca|0697": "Turmalina"
-  "comarca|0699": "Ubá"
-  "comarca|0701": "Uberaba"
-  "comarca|0702": "Uberlândia"
-  "comarca|0704": "Unaí"
-  "comarca|0707": "Varginha"
-  "comarca|0708": "Várzea da Palma"
-  "comarca|0710": "Vazante"
-  "comarca|0290": "Vespasiano"
-  "comarca|0713": "Viçosa"
-  "comarca|0718": "Virginópolis"
-  "comarca|0720": "Visconde Rio Branco"
-```
-			
+
+TODO:
+
+
+## TJES
+
+TODO:
+
+
+## TJGO
+
+TODO:
+
+
+## TJMT
+
+TODO:
+
+
+## TJPB
+
+TODO:
+
+
+## TJPE
+
+TODO:
+
+
+## TJPI
+
+TODO:
+
+
+## TJPR
+
+TODO:
+
+
+## TJRO
+
+TODO:
+
+
+## TJRR
+
+TODO:
+
+
+## TJRS
+
+TODO:
+
+
+## TJSE
+
+TODO:
+
+
+## TJSP
+
+TODO:
+
+
+## TJTO
+
+TODO:
+
+
+## TJRJ
+
+TODO:
+
+

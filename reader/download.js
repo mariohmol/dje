@@ -3,6 +3,7 @@ const fs = require('fs');
 const { exec } = require('child_process');
 const { downloadDF } = require('./estados/df.js');
 const { downloadMA } = require('./estados/ma.js');
+const { downloadMG } = require('./estados/mg.js');
 
 const { ESTADOS } = require('./data.js');
 
@@ -33,7 +34,7 @@ const readerDownload = function (readDate = null, tribunais = null) {
             newLog({ data, status: false, obs: 'error', err, estado, count, total });
           })
         continue;
-      }else if (estado === 'TJMA') {
+      } else if (estado === 'TJMA') {
         downloadMA(data)
           .then(c => {
             count++;
@@ -43,7 +44,18 @@ const readerDownload = function (readDate = null, tribunais = null) {
             newLog({ data, status: false, obs: 'error', err, estado, count, total });
           })
         continue;
+      }else if (estado === 'TJMG') {
+        downloadMG(data)
+          .then(c => {
+            count++;
+            newLog({ data, status: true, obs: 'ok', estado, count, total });
+          }).catch(err => {
+            count++;
+            newLog({ data, status: false, obs: 'error', err, estado, count, total });
+          })
+        continue;
       }
+      
 
       // "Rscript --vanilla run.R TJSP 2019-04-11"
       const comando = `Rscript --vanilla run.R ${estado} ${data}`;

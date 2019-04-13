@@ -5,11 +5,11 @@ Download e leitura de Diários do Judiciário de diversos estados brasileiros.
 
 Estados integrados:
 
-*  TJAC, TJAL, TJAM, TJBA, TJCE, TJMS, TJRN, TJSC, TJSP, TJDFT, TJMA
+*  TJAC, TJAL, TJAM, TJBA, TJCE, TJMS, TJRN, TJSC, TJSP, TJDFT, TJMA, TJMG
 
 Estados não integrados:
 
-* TJAP, TJES, TJGO, TJMT, TJPB, TJPE, TJPI, TJPR, TJRO, TJRR, TJRS, TJSE, TJSP, TJTO, TJRJ, TJMG
+* TJAP, TJES, TJGO, TJMT, TJPB, TJPE, TJPI, TJPR, TJRO, TJRR, TJRS, TJSE, TJSP, TJTO, TJRJ
 
 
 ## Status de Desenvolvimento

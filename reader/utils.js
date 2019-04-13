@@ -10,11 +10,18 @@ const dowloadFile = function (url, fileName) {
     const file = fs.createWriteStream(fileName);
     console.log(`Download file`, url);
     const request = https.get(url, function (response) {
-      response.pipe(file);
-      resolve();
+      response.pipe(file)
+        .on('finish', function () { resolve(); });
+
     });
   })
 }
+
+
+const saveFile = function (fileName, content) {
+  fs.writeFileSync(fileName, content)
+}
+
 const qRequest = function (options, json = false) {
   options.timeout = 25000;
   const q = new Promise((resolve, reject) => {
@@ -55,4 +62,4 @@ function createFolders(folder) {
     }
   })
 }
-module.exports = { qRequest, dowloadFile, createFolders }
+module.exports = { qRequest, dowloadFile, createFolders, saveFile }
