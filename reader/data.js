@@ -9,7 +9,7 @@ const ESTADOS = {
   'TJDFT': true,
   'TJES': false,
   'TJGO': false,
-  'TJMA': false,
+  'TJMA': true,
   'TJMG': false,
   'TJMS': true,
   'TJMT': false,

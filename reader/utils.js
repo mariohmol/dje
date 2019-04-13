@@ -8,6 +8,7 @@ const fs = require('fs');
 const dowloadFile = function (url, fileName) {
   return new Promise((resolve, reject) => {
     const file = fs.createWriteStream(fileName);
+    console.log(`Download file`, url);
     const request = https.get(url, function (response) {
       response.pipe(file);
       resolve();
@@ -40,4 +41,18 @@ const qRequest = function (options, json = false) {
   return q;
 };
 
-module.exports = { qRequest, dowloadFile }
+function createProjects(folder) {
+  const folders = folder.split('/');
+  let initial;
+  folders.forEach(f => {
+    if (!initial) {
+      initial = f;
+    } else {
+      initial = initial + '/' + f;
+    }
+    if (!fs.existsSync(initial)) {
+      fs.mkdirSync(initial);
+    }
+  })
+}
+module.exports = { qRequest, dowloadFile, createProjects }

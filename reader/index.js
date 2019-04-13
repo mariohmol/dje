@@ -14,7 +14,7 @@ const terms = [
   ]
 const day = '2019-04-08';
 const folder = `download/${day}/tjsp_dje_${day}_txt/`
-readerDownload(day, 'TJDFT');
+readerDownload(day, 'TJMA');
 
 // getDay(day);
 // convertToText(day);
