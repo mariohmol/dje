@@ -1,3 +1,4 @@
+./rpkginstall.sh curl
 ./rpkginstall.sh dplyr
 ./rpkginstall.sh httr
 ./rpkginstall.sh tibble
@@ -12,5 +13,5 @@
 ./rpkginstall.sh tidyr
 ./rpkginstall.sh xml2
 ./rpkginstall.sh abjutils
-./rpkginstall.sh dje
 ./rpkginstall.sh tidyverse
+

@@ -1,4 +1,19 @@
 
+
+# Install R
+
+* CentoOS: 
+
+```sh
+yum install R -y
+yum -y install libcurl-devel
+mount -o remount,exec /tmp
+sudo ./install.sh
+```
+
+
+## Links
+
 | tribunal | link                                                                            | status                  |
 | :------- | :------------------------------------------------------------------------------ | :----------------------- |
 | TJAC     | <https://diario.tjac.jus.br/edicoes.php>                                        | sim (n captcha)                        |

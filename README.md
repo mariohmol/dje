@@ -61,7 +61,14 @@ Instalação:
 
 ```sh
 npm intall
-npm run install
+npm run install-dep
+
+
+R CMD build .
+R
+install.packages("./dje_0.0.0.9000.tar.gz", repos = NULL, type="source")
+#R CMD INSTALL --library=/path/to/Rlibs dje_0.0.0.9000.tar.gz
+
 npm run start
 ```
 

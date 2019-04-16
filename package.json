@@ -10,7 +10,7 @@
   },
   "scripts": {
     "start": "node reader/index.js",
-    "install": "./install.sh",
+    "install-dep": "./install.sh",
     "download": "Rscript --vanilla run.R TJSP 2019-04-11",
     "convert": "Rscript --vanilla convert.R tjsp 2019-04-11 11",
     "test": "echo \"Error: no test specified\" && exit 1"
